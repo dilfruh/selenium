@@ -1,0 +1,200 @@
+{
+  "id": "d5ad7b27-e3da-46f9-8bc8-b1ee502b69db",
+  "version": "2.0",
+  "name": "selenium-ide",
+  "url": "http://localhost:3000",
+  "tests": [{
+    "id": "6b5292b7-4f16-4a43-9ee2-293feb6686ea",
+    "name": "test1",
+    "commands": [{
+      "id": "fffd4a2e-41d4-4d40-a90d-0ce1618a21b7",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "f689a616-d284-4cf6-956c-18b71d231b42",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1292x684",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1fd150fe-0961-41af-8f74-aa11310ba01e",
+      "comment": "open link to docs",
+      "command": "click",
+      "target": "css=.page_description__86bsR > button",
+      "targets": [
+        ["css=.page_description__86bsR > button", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Increase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "9fb696a1-4081-4279-830f-f8f23586417a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page_description__86bsR > button",
+      "targets": [
+        ["css=.page_description__86bsR > button", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Increase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "54c51f2e-6b57-4174-8603-ef8c00e9d463",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ee9e0319-6634-4977-93b1-51f0427cb64b",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='5']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "5"
+    }, {
+      "id": "1d4f5b2c-e5fe-4e81-a1a0-0c7c2d247505",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='5']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "b999139c-d4a7-477f-a4d3-834c35bb3bc4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page_description__86bsR > button",
+      "targets": [
+        ["css=.page_description__86bsR > button", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Increase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "a9ad10e7-f57d-4d3a-b30a-37028b3e0177",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page_description__86bsR > button",
+      "targets": [
+        ["css=.page_description__86bsR > button", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Increase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "b95cd12f-a785-409c-bd0c-c30e4325aec4",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page_description__86bsR > button",
+      "targets": [
+        ["css=.page_description__86bsR > button", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Increase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0ca644ea-d942-49c5-b50c-0418d8556894",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.page_description__86bsR > button",
+      "targets": [
+        ["css=.page_description__86bsR > button", "css:finder"],
+        ["xpath=//button", "xpath:position"],
+        ["xpath=//button[contains(.,'Increase')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "1d42c2a6-7c5e-4e4d-8625-0de34e546152",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='0']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "0"
+    }, {
+      "id": "b12bb21c-dbe0-4576-8e87-6e7f551d7583",
+      "comment": "",
+      "command": "click",
+      "target": "css=form > button",
+      "targets": [
+        ["css=form > button", "css:finder"],
+        ["xpath=//form/button", "xpath:position"],
+        ["xpath=//button[contains(.,'Submit')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c1eb1a28-6b19-4d43-8181-1be323792c84",
+      "comment": "",
+      "command": "click",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "48a71075-929f-453d-9b52-6ad817fac5e4",
+      "comment": "",
+      "command": "type",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='888']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "888"
+    }, {
+      "id": "2081f232-01f8-4923-a0e8-3150e0902080",
+      "comment": "",
+      "command": "sendKeys",
+      "target": "css=input",
+      "targets": [
+        ["css=input", "css:finder"],
+        ["xpath=//input[@value='888']", "xpath:attributes"],
+        ["xpath=//input", "xpath:position"]
+      ],
+      "value": "${KEY_ENTER}"
+    }, {
+      "id": "91df07eb-2969-4683-9738-c51481e08f7a",
+      "comment": "",
+      "command": "click",
+      "target": "css=.page_card__QV0Om",
+      "targets": [
+        ["css=.page_card__QV0Om:nth-child(1)", "css:finder"],
+        ["xpath=//a[contains(@href, 'https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app')]", "xpath:href"],
+        ["xpath=//div[3]/a", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "a239973f-9e3e-4fe8-b350-38249f174197",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["6b5292b7-4f16-4a43-9ee2-293feb6686ea"]
+  }],
+  "urls": ["http://localhost:3000/"],
+  "plugins": []
+}
